@@ -1,0 +1,128 @@
+[
+    {
+        "vulnerability": "B_1",
+        "source": [
+            "d",
+            7
+        ],
+        "sink": [
+            "a",
+            7
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "A_1",
+        "source": [
+            "b",
+            1
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "A_2",
+        "source": [
+            "d",
+            7
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "A_3",
+        "source": [
+            "d",
+            9
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "C_1",
+        "source": [
+            "a",
+            7
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "no",
+        "sanitized_flows": [
+            [
+                [
+                    "c",
+                    7
+                ]
+            ]
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "C_2",
+        "source": [
+            "d",
+            7
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "no",
+        "sanitized_flows": [
+            [
+                [
+                    "c",
+                    7
+                ]
+            ]
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "C_3",
+        "source": [
+            "a",
+            9
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "C_4",
+        "source": [
+            "d",
+            9
+        ],
+        "sink": [
+            "e",
+            9
+        ],
+        "unsanitized_flows": "yes",
+        "sanitized_flows": [],
+        "implicit": "no"
+    }
+]
